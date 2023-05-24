@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'result.css' %}" />
+    <title>Result</title>
+  </head>
+  <body>
+    <div id="container">
+      <table>
+        <tr>
+          <td class="heading--col">Name:</td>
+          <td>{{name}}</td>
+        </tr>
+        <tr>
+          <td class="heading--col">Hall ticket Number:</td>
+          <td>{{hall_ticket_number}}</td>
+        </tr>
+        <tr>
+          <td class="heading--col">Score:</td>
+          <td id="green"><strong>{{score}} / 160</strong></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,5 +1,5 @@
 """
-URL configuration for myproject project.
+URL configuration for marks_scrapper project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from myapp.views import calculate
+from homeapp.views import hello_world
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("calculate/", calculate, name="calculate"),
+    path("", hello_world, name="Welcome page"),
 ]
