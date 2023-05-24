@@ -44,6 +44,13 @@ Checking your online responses sheet and calculating your exam score can be daun
 
 ## Screenshots
 
+### Home Page View
+![Home Page](https://github.com/dineshveguru/marks_scraping/assets/82778240/0a70d286-0fce-46e3-bc06-dbef51e8efc3)
+
+### Result Page View
+![Result Page](https://github.com/dineshveguru/marks_scraping/assets/82778240/870e3df3-3ebf-4b77-94a4-79544a09deb9)
+
+
 ## Contributions
 
 Contributions are welcome! If you want to contribute to this project, please follow these steps:
